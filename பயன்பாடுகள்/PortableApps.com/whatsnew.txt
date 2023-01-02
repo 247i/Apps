@@ -1,0 +1,114 @@
+PortableApps.com is celebrating 18 years! Please help us reach our next anniversary by making a donation today.
+
+* Version 23.0 [2022-12-09]
+
+ADDED: Wine, ReactOS, and Linux/BSD detection
+ADDED: Font matching for Windows 11, ReactOS, Ubuntu, Pop!_OS, Debian, CentOS, Fedora, Mint, Arch, openSUSE, Kali, Manjaro, and Gentoo
+ADDED: Font adjustments for the menu, options, about, dialog, and rename windows
+UPDATED: Delphi compiler to 11.2
+UPDATED: Sponsor list layout for easier readability with new fonts
+
+* Version 22.0.1 [2022-07-21]
+
+ADDED: Platform SHA256 update check
+FIXED: Indicate Windows 8 must be updated to 8.1 for .NET 4.7/4.8
+UPDATED: 7-Zip to 22.01
+UPDATED: Delphi compiler to 11.1.5
+
+* Version 22.0 [2022-07-07]
+
+ADDED: SHA256 hash support
+ADDED: Ability to update up to 100 copies of an app
+FIXED: System environment variables insert extra backslash
+FIXED: Security/Utilities not translated in App Store/Updater
+UPDATED: 7-Zip to 22.00
+UPDATED: Delphi compiler to 11.1 Patch 1, improved stability/performance, ends Windows 2000 support
+
+* Version 21.2.2 [2022-03-31]
+
+ADDED: http fallback for machines with https issues
+FIXED: .NET error on Windows 8.0 and Windows 7 missing Microsoft's Platform Update
+UPDATED: Korean installer locale
+
+* Version 21.2.1 [2022-03-26]
+
+FIXED: Platform not correctly detecting .Net 4 installs
+FIXED: Touch issues under Windows 11
+UPDATED: Arabic, French, and Korean locales
+
+* Version 21.2 [2022-03-24]
+
+ADDED: Myanmar (Burmese), Punjabi and Urdu locales
+ADDED: .Net Core and .Net 5+ detection and download
+FIXED: Updater/App Store missing some Bengali and Esperanto strings
+FIXED: Checkboxes in Options window Advanced tab partially cut off with right to left languages
+
+* Version 21.1 [2022-03-11]
+
+ADDED: Support for Windows 11 high contrast themes to About, Options, Dialog, etc
+ADDED: All 83 supported languages to platform installer
+ADDED: All 77 platform languages to updater/app store
+ADDED: Advanced INI option to make platform environment variables user instance wide
+FIXED: Platform environment variables PortableApps.comApps, PortableApps.comRoot incorrectly set
+UPDATED: Locale code page settings to match NSIS
+
+* Version 21.0 [2022-03-04]
+
+ADDED: Support for all .NET Framework versions with app checks and download links
+ADDED: Ability to retry closing apps on exit
+ADDED: Display of available .NET versions in About window
+ADDED: Bengali, Mongolian, Sesotho, Swahili, Scottish Gaelic, Tatar, Uyghur, Welsh, Zulu locales
+ADDED: Windows 11 style in app store/updater, better folder icon
+ADDED: PortableApps.comRoot and PortableApps.comApps environment variables
+UPDATED: Switched updater/app store to https for all bits on Windows 7 and later
+FIXED: Missing new app icon in app store when missing from server
+
+* Version 20.1 [2022-01-27]
+
+ADDED: Download of .NET bundle requirements
+ADDED: Alt-Space hotkey support
+ADDED: Corsican, Esperanto, Georgian, Icelandic locales
+UPDATED: Albanian, Afrikaans, Basque, Belarusian, Danish, Farsi, Hindi, Indonesian, Irish, Korean, Lithuanian, Luxembourgish, Macedonian, Malay, Serbian, SerbianLatin, Tamil, Ukrainian locales
+UPDATED: Dialog box icons
+FIXED: Ctrl-Space hotkey setting
+FIXED: Localeglibc and EOL across all locale files
+
+* Version 20.0 [2022-01-14]
+
+ADDED: Support for dotNet 5/6 bundled apps
+ADDED: Taskbar/system tray icon color selection
+ADDED: Filipino, Igbo, Khmer, Malagasy, Pashto, Uzbek, Yoruba locales
+ADDED: Updated date to available updates
+UPDATED: Latest version of 7-Zip for backup/restore
+UPDATED: Armenian, Bosnian, Catalan, Croatian, Czech, Dutch, Estonian, Galician, Greek, Hebrew, Hindi, Italian, Kurdish, Norwegian, Portuguese, PortugueseBrazil, Romanian, Slovak, Spanish, Spanish International, Sundanese, Swedish, Traditional Chinese, Turkish locales
+FIXED: Some locales show English updater
+FIXED: Some locales show English on initial install
+FIXED: Updater skips similar apps when in screenreader friendly mode
+FIXED: Unable to pin multi-app apps like LibreOffice to taskbar
+
+* Version 19.2 [2021-12-23]
+
+UPDATED: Latest version of 7-Zip for backup/restore
+UPDATED: Arabic, Bulgarian, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Latvian, Polish, Russian, Turkish locales
+FIXED: Removed incorrect 503 error message in updater
+
+* Version 19.1 [2021-10-21]
+
+ADDED: Add app to Windows Start
+UPDATED: Platform folder icons in Windows Explorer
+UPDATED: Arabic, Bulgarian, Dutch, French, Galician, German, Greek, Hungarian, Japanese, Russian, Simplified Chinese locales
+
+* Version 19.0 [2021-10-05]
+
+ADDED: Taskbar pinning in Windows 11
+ADDED: Screen reader compatibility for What's New section
+ADDED: PortableApps.com logo clickable in menu
+ADDED: Click Next without selection to update all apps in screen reader mode
+ADDED: Segoe UI Variable font use on Windows 11
+UPDATED: Improved Windows 11 compatibility
+UPDATED: Modern app list folder icons
+UPDATED: Arabic, Bulgarian, French, German, Greek, Hungarian, Italian, Polish, Portuguese, PortugueseBrazil locales
+FIXED: Updater categories not localized
+FIXED: RTL locales don't properly show paf.exe in manual install menu
+FIXED: Updater/app store misses apps when appids contain substrings of each other
+FIXED: Advanced apps shown when option to show is turned off
