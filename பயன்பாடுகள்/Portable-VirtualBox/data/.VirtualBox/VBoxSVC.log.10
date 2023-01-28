@@ -1,0 +1,34 @@
+VirtualBox COM Server 5.0.4 r102546 win.amd64 (Sep  8 2015 10:46:49) release log
+00:00:00.020530 main     Log opened 2016-03-17T20:21:02.282501300Z
+00:00:00.020530 main     Build Type: release
+00:00:00.020530 main     OS Product: Windows 10
+00:00:00.020530 main     OS Release: 10.0.10586
+00:00:00.020530 main     OS Service Pack: 
+00:00:00.040083 main     DMI Product Name: HP ProBook 650 G1
+00:00:00.049859 main     DMI Product Version: A3008CD10003
+00:00:00.049859 main     Host RAM: 15801MB total, 2834MB available
+00:00:00.049859 main     Executable: C:\MyData\Bureau\Dropbox\Projet LiLi USB Creator\SVN\trunk\2.9\tools\VirtualBox\Portable-VirtualBox\app64\VBoxSVC.exe
+00:00:00.049859 main     Process ID: 17384
+00:00:00.049859 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.057679          Home directory: 'C:\MyData\Bureau\Dropbox\Projet LiLi USB Creator\SVN\trunk\2.9\tools\VirtualBox\Portable-VirtualBox\data\.VirtualBox'
+00:00:00.066477          Loading settings file "C:\MyData\Bureau\Dropbox\Projet LiLi USB Creator\SVN\trunk\2.9\tools\VirtualBox\Portable-VirtualBox\data\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.112801          Getting USB descriptor failed with error 31
+00:00:00.112801          Getting USB descriptor failed with error 31
+00:00:00.112801          Getting USB descriptor failed with error 31
+00:00:00.240061          USB: Unknown USB device detected (idVendor: 0x0000, idProduct: 0x0000). Please, report the idVendor and idProduct to virtualbox.org.
+00:00:00.240061          USB: Unknown USB device detected (idVendor: 0x0000, idProduct: 0x0000). Please, report the idVendor and idProduct to virtualbox.org.
+00:00:00.240061          USB: Unknown USB device detected (idVendor: 0x0000, idProduct: 0x0000). Please, report the idVendor and idProduct to virtualbox.org.
+00:00:00.251793          Skipped non-Ethernet 'Loopback Pseudo-Interface 1'
+00:00:00.251793          Skipped non-Ethernet 'Teredo Tunneling Pseudo-Interface'
+00:00:00.251793          Skipped non-Ethernet 'isatap.{8652DF2B-7D70-419B-A331-670D2AC4EE89}'
+00:00:00.251793          Skipped non-Ethernet 'isatap.{4BD42523-7754-440D-874D-5EC0992B52FA}'
+00:00:00.251793          Skipped non-Ethernet 'isatap.{E03B4AE0-6108-4DDB-B9E9-52F1CF3887A8}'
+00:00:00.258636          HostDnsMonitorProxy::notify
+00:00:00.348615          VD: VDInit finished
+00:00:00.351548          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.365567          Loading settings file "C:\MyData\Bureau\Dropbox\Projet LiLi USB Creator\SVN\trunk\2.9\tools\VirtualBox\Portable-VirtualBox\data\.VirtualBox\Machines\LinuxLive\LinuxLive.vbox" with version "1.14-windows"
+00:00:00.373072          Loading settings file "C:\MyData\Bureau\Dropbox\Projet LiLi USB Creator\SVN\trunk\2.9\tools\VirtualBox\Portable-VirtualBox\data\.VirtualBox\Machines\Debug\Debug.vbox" with version "1.14-windows"
+00:00:01.586265          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Unknown exception
+00:00:01.586265          F:\tinderbox\win-5.0\out\win.amd64\release\obj\VBoxAPIWrap\MediumWrap.cpp[2245] (long __cdecl MediumWrap::GetEncryptionSettings(unsigned short **,unsigned short **))}, preserve=false aResultDetail=0
+00:00:10.395113 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\MyData\Bureau\Dropbox\Projet LiLi USB Creator\SVN\trunk\2.9\tools\VirtualBox\Portable-VirtualBox\data\.VirtualBox\Machines\LinuxLive\HardDisks/LinuxLive.vmdk' cannot be closed because it is still attached to 2 virtual machines}, preserve=false aResultDetail=0
+00:00:10.405620 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0

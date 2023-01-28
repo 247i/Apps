@@ -1,0 +1,24 @@
+# Disk DescriptorFile
+version=1
+CID=a3a02a5a
+parentCID=ffffffff
+createType="fullDevice"
+
+# Extent description
+RW 123535360 FLAT "\\.\PHYSICALDRIVE1" 0
+
+# The disk Data Base 
+#DDB
+
+ddb.virtualHWVersion = "4"
+ddb.adapterType="ide"
+ddb.geometry.cylinders="16383"
+ddb.geometry.heads="16"
+ddb.geometry.sectors="63"
+ddb.uuid.image="a58bc26c-243c-48a0-b095-859115cebd18"
+ddb.uuid.parent="00000000-0000-0000-0000-000000000000"
+ddb.uuid.modification="00000000-0000-0000-0000-000000000000"
+ddb.uuid.parentmodification="00000000-0000-0000-0000-000000000000"
+ddb.geometry.biosCylinders="1024"
+ddb.geometry.biosHeads="255"
+ddb.geometry.biosSectors="63"

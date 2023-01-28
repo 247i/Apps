@@ -1,0 +1,13 @@
+
+CHANGELOG
+	5.0.16.1
+		+ Updated VirtualBox to 5.0.16
+	5.0.4.1
+		+ Updated VirtualBox to 5.0.4
+		+ No update to launcher except for Portable VirtualBox tools v6.4.9
+		! Fixed bug with Virtualize_This_Key not working (created dummy file HardDisks\LinuxLive.vdi)
+		! Refreshed the icon to latest version of virtualbox
+	4.3.6.2
+		+ Using WinAPI instead of WMI to get physical disk informations (Should be way more stable)
+		+ Compiled using latest AutoIT 3.3.10.2
+		+ New VM called Debug (using default value and IDE disk)

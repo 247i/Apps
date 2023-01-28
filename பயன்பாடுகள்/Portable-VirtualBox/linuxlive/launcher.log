@@ -1,0 +1,26 @@
+2021-05-27 01:41:20 : 
+--------------------------------  System Config  --------------------------------
+OS Type : WIN32_NT
+OS Version : WIN_81
+OS Build : 9600
+OS Service Pack : 
+OS Architecture : X64
+Processor Architecture : X64
+Processor Model : Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Memory : 32427MB  ( with 75% free = 24096MB )
+OS Lang :  English_United_States (0409)
+Language : Tamil (0449)
+Keyboard : 00004009
+Resolution : 1536x864
+------------------------------  End of system config  ------------------------------
+2021-05-27 01:41:20 : Start-CheckIfInstalled
+2021-05-27 01:41:20 : 64 Bits OS detected
+2021-05-27 01:41:20 : Found an Oracle VM VirtualBox installed, version is 6.1.22
+2021-05-27 01:41:20 : It's a VirtualBox 4.X.X or superior installed => can be used instead of portable one.
+2021-05-27 01:41:20 : No Sun xVM VirtualBox installed.
+2021-05-27 01:41:20 : Portable mode forced : no
+2021-05-27 01:41:20 : Setting Environment variable VBOX_USER_HOME=C:\வட்டு\PortableApps\Portable-VirtualBox\data\.VirtualBox
+2021-05-27 01:41:20 : Virtualbox install directory is : C:\Program Files\Oracle\VirtualBox\
+2021-05-27 01:41:20 : Start-PrepareForLinuxLive
+2021-05-27 01:41:20 : VMDK File is C:\வட்டு\PortableApps\Portable-VirtualBox\data\.VirtualBox\Machines\LinuxLive\HardDisks\LinuxLive.vmdk
+2021-05-27 01:41:20 : Start-GiveMePhysicalDisk of : C:

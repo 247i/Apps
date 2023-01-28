@@ -1,0 +1,16 @@
+00:00:00.126483 VirtualBox GUI VM Selector Window 6.1.16 r140961 win.amd64 (Oct 16 2020 16:33:17) release log
+00:00:00.126486 Log opened 2020-11-23T15:51:03.638529200Z
+00:00:00.126486 Build Type: release
+00:00:00.126488 OS Product: Windows 10
+00:00:00.126489 OS Release: 10.0.18363
+00:00:00.126489 OS Service Pack: 
+00:00:00.161805 DMI Product Name: 20L6S9U200
+00:00:00.166794 DMI Product Version: ThinkPad T480
+00:00:00.166818 Firmware type: BIOS
+00:00:00.166826 Host RAM: 32426MB (31.6GB) total, 25923MB (25.3GB) available
+00:00:00.166829 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.166829 Process ID: 2248
+00:00:00.166830 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.166930 Qt version: 5.6.2
+00:00:00.176803 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.591299 GUI: UIMediumEnumerator: Medium-enumeration finished!
