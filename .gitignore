@@ -3,3 +3,4 @@
 *.log
 *.sqbck
 *.sqlite
+*.log.*
